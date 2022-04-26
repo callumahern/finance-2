@@ -1,1 +1,8 @@
-<h3>Homepage</h3>
+<h3>Welcome to the Finance Tracker app!</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta autem beatae distinctio ratione porro officiis minima ex voluptas, perspiciatis itaque, ullam quidem aut praesentium architecto in atque consequatur nihil necessitatibus.</p>
+
+<%= link_to 'Sign Out', destroy_user_session_path, method: :get %>
+
+<footer>
+	<p>Welcome <%= current_user.email %></p>
+</footer>
